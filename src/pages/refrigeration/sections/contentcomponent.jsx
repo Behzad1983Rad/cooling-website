@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 
 import img1 from '../../../assets/images/ac-images/refrigeration-repair.jpg';
@@ -46,6 +47,11 @@ const CntentComponent = () => {
                             <Card className="card-shadow m-t-20">
                                 <div className="img-ho"><img className="card-img-top h-unset" src={img1} alt="" /></div>
                             </Card>
+                        </Col>
+                        <Col md="12" className='text-center' data-aos="fade-left">
+                            <Link to="/gallery" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20">
+                                View Gallery
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

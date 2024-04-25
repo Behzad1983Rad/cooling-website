@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, CardBody } from 'reactstrap';
 
 import ContactImage from "../../assets/images/landingpage/gallery-img-9.jpg"
 
@@ -9,7 +10,7 @@ import {
 } from "reactstrap";
 
 const ContactComponent = () => {
-  
+
 
   return (
     <div>
@@ -27,19 +28,17 @@ const ContactComponent = () => {
           </Row>
         </Container>
       </div>
-      <div className="contact1 bg-light">
-        <Container>
+
+
+      <div className="spacer bg-light">
+        <Container className="feature30">
           <Row>
-            <div className="spacer pt-0">
-              <Row className="m-0">
-                <Col lg="8" data-aos="fade-right">
-                  <div className="contact-box p-r-40">
-                    <img className="img-fluid" src={ContactImage} alt="" />
-                  </div>
-                </Col>
-                <Col lg="4">
+            <Col lg="10" data-aos="fade-right"><img className="img-fluid rounded img-responsive grescale" src={ContactImage} alt="" /></Col>
+            <Col lg="5" md="7" className="text-center wrap-feature30-box" data-aos="fade-left">
+              <Card className="card-shadow">
+                <CardBody className="detail-box p-40 bg-info">
                   <div className="detail-box p-40 bg-info" data-aos="fade-left">
-                    <h2 className="text-white">b2b Cooling Headquarters</h2>
+                    <h2 className="text-white">Acbcooling Headquarters</h2>
                     <p className="text-white m-t-30">
                       251 546 9442
                       <br /> <a href="mailto:info@yourwebsite.com" className="text-white">info@someone.com</a>
@@ -48,12 +47,13 @@ const ContactComponent = () => {
                       Office : +207 235 7890
                     </p>
                   </div>
-                </Col>
-              </Row>
-            </div>
+                </CardBody>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </div>
+
     </div>
   );
 };

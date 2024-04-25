@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import $ from "jquery";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import "slick-carousel/slick/slick.js";
-
 
 import BrandIcon1 from "../../assets/images/brands/brand-icon-1.png";
 import BrandIcon2 from "../../assets/images/brands/brand-icon-2.png";
@@ -30,9 +28,7 @@ import {
 
 const BrandComponent = () => {
   useEffect(() => {
-    // Initialize Slick Slider after component is mounted
     $(".slider").slick({
-      // Add your Slick Slider options here
       dots: true,
       infinite: true,
       speed: 500,
@@ -64,11 +60,11 @@ const BrandComponent = () => {
   return (
     <div>
       
-      <div className="contact1 brands_slider spacer">
+      <div className="contact1 brands_slider mini-spacer">
         <Container>
         <Row className="justify-content-center">
             <Col md="7" className="text-center" data-aos="fade-up">
-              <h1 className="title font-bold m-b-30 m-t-30">Our Brands</h1>
+              <h1 className="title font-bold m-b-40 m-t-30">Our Brands</h1>
             </Col>
           </Row>
 

@@ -8,19 +8,15 @@ const Footer = () => {
         <div className="footer4 b-t mini-spacer">
             <Container>
                 <Row>
-                    <Col lg="3" md="6" className="m-b-30" data-aos="fade-down">
-                        <h5 className="m-b-20">Address</h5>
-                        <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
-                    </Col>
-                    <Col lg="3" md="6" className="m-b-30" data-aos="fade-down">
+                    <Col lg="4" md="6" className="m-b-30" data-aos="fade-down">
                         <h5 className="m-b-20">Phone</h5>
                         <p>Reception :  +205 123 4567 <br />Office :  +207 235 7890</p>
                     </Col>
-                    <Col lg="3" md="6" className="m-b-30" data-aos="fade-down">
+                    <Col lg="4" md="6" className="m-b-30" data-aos="fade-down">
                         <h5 className="m-b-20">Email</h5>
                         <p>Office :  <a href="mailto:info@yourwebsite.com" className="link">info@someone.com</a></p>
                     </Col>
-                    <Col lg="3" md="6" data-aos="fade-down">
+                    <Col lg="4" md="6" data-aos="fade-down">
                         <h5 className="m-b-20">Social</h5>
                         <div className="round-social light">
                             <Link className="link"><i className="fa fa-youtube-play"></i></Link>

@@ -45,7 +45,7 @@ const Header = () => {
                     <Container className="po-relative">
                         <Navbar className="navbar-expand-lg h6-nav-bar">
                             <NavbarBrand href="/" data-aos="fade-right">
-                                <img style={{scale: "0.8"}} className='logo-w' src={logo} alt="" />
+                                <img className='logo-w' src={logo} alt="" />
                             </NavbarBrand>
                             <span className='logo-title text-white'  data-aos="fade-down">
                             Refrigeration & Air Condition <br /> Service, Repair & Installation

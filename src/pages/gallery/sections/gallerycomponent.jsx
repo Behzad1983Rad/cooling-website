@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import LightGallery from 'lightgallery/react';
 import lgZoom from 'lightgallery/plugins/zoom';
-import lgVideo from 'lightgallery/plugins/video';
+// import lgVideo from 'lightgallery/plugins/video';
 
 /* Import all gallery images */
 import galleryimage1 from '../images/gallery-img-1.jpg';
@@ -23,14 +23,14 @@ import galleryimage15 from '../images/gallery-img-15.jpg';
 import galleryimage16 from '../images/gallery-img-16.jpg';
 
 /* Import all thumbnails and videos */
-import videothumb1 from '../videos/videothumbnail-1.jpg';
-import videothumb2 from '../videos/videothumbnail-2.jpg';
-import videothumb3 from '../videos/videothumbnail-3.jpg';
-import videothumb4 from '../videos/videothumbnail-4.jpg';
-import video1 from '../videos/video-1.mp4';
-import video2 from '../videos/video-2.mp4';
-import video3 from '../videos/video-3.mp4';
-import video4 from '../videos/video-4.mp4';
+// import videothumb1 from '../videos/videothumbnail-1.jpg';
+// import videothumb2 from '../videos/videothumbnail-2.jpg';
+// import videothumb3 from '../videos/videothumbnail-3.jpg';
+// import videothumb4 from '../videos/videothumbnail-4.jpg';
+// import video1 from '../videos/video-1.mp4';
+// import video2 from '../videos/video-2.mp4';
+// import video3 from '../videos/video-3.mp4';
+// import video4 from '../videos/video-4.mp4';
 
 class VideoGallery extends Component {
     constructor(props) {
@@ -51,12 +51,12 @@ class VideoGallery extends Component {
     };
 
     render() {
-        const videos = [
-            { thumbnail: videothumb1, media: video1, animation: "fade-right", type: 'video' },
-            { thumbnail: videothumb2, media: video2, animation: "fade-up", type: 'video' },
-            { thumbnail: videothumb3, media: video3, animation: "fade-left", type: 'video' },
-            { thumbnail: videothumb4, media: video4, animation: "fade-left", type: 'video' },
-        ];
+        // const videos = [
+        //     { thumbnail: videothumb1, media: video1, animation: "fade-right", type: 'video' },
+        //     { thumbnail: videothumb2, media: video2, animation: "fade-up", type: 'video' },
+        //     { thumbnail: videothumb3, media: video3, animation: "fade-left", type: 'video' },
+        //     { thumbnail: videothumb4, media: video4, animation: "fade-left", type: 'video' },
+        // ];
 
         const images = [
             { thumbnail: galleryimage1, media: galleryimage1, animation: "fade-up", type: 'image' },
@@ -79,8 +79,8 @@ class VideoGallery extends Component {
         ];
 
         return (
-            <div className="spacer">
-                <Container>
+            <div className="mini-spacer">
+                {/* <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center" data-aos="fade-up">
                             <h2 className="title">Video Gallery</h2>
@@ -121,7 +121,6 @@ class VideoGallery extends Component {
                             onClick={this.closeLightbox}
                         >
                             <div style={{ maxWidth: '100%', maxHeight: '100%' }}>
-                                {/* Embedded video player */}
                                 <video
                                     width="100%"
                                     height="100%"
@@ -133,7 +132,7 @@ class VideoGallery extends Component {
                             </div>
                         </div>
                     )}
-                </Container>
+                </Container> */}
 
                 <Container>
                     <Row className="justify-content-center">
