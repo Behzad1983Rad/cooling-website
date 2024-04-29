@@ -258,11 +258,13 @@ a.whatsapp-icon {
     width: 100%;
     min-height: 100%;
     min-height: 305px;
+    max-height: 305px;
 }
 
 .width_image_large {
-    max-width: 500px;
+    max-width: 400px;
 }
+
 
 .brands_slider img{
     padding: 0 25px;
@@ -295,6 +297,11 @@ a.whatsapp-icon {
 }
 
 @media only screen and (max-width: 991px){
+
+    .mini-spacer .width_image_large {
+        max-width: 90%;
+    }
+
     #rs-header  .hidden-md {
         display: none;
     }
