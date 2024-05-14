@@ -16,14 +16,14 @@ const Header = () => {
 
     return (
         <>
-            <div className='phone_top_bar' id='rs-header'>
+            {/* <div className='phone_top_bar' id='rs-header'>
                 <div className="toolbar-area">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 col-md-12" data-aos="fade-right">
                                 <div className="toolbar-contact">
                                     <ul>
-                                        <li><i className="fa fa-envelope-o"></i><a href="mailto:coldacb@yahoo.com">coldacb@yahoo.com</a></li>
+                                        <li><i className="fa fa-envelope-o"></i><a href="mailto:acbcooling@yahoo.com">acbcooling@yahoo.com</a></li>
                                         <li><i className="fa fa-phone"></i><a href="tel:07376942333">07376942333</a></li>
                                     </ul>
                                 </div>
@@ -39,7 +39,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="topbar header1 po-relative bg-dark" id="top">
                 <div className="header6">
                     <Container className="po-relative">
@@ -83,6 +83,16 @@ const Header = () => {
                                             Instagram
                                         </Link>
                                     </NavItem> */}
+                                    <NavItem>
+    <a className="nav-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+        Youtube
+    </a>
+</NavItem>
+<NavItem>
+    <a className="nav-link" href="https://www.instagram.com/acbcooling/" target="_blank" rel="noreferrer">
+        Instagram
+    </a>
+</NavItem>
                                 </Nav>
                             </Collapse>
                         </Navbar>

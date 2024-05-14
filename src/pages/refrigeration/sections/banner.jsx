@@ -11,7 +11,7 @@ const Banner = () => {
                         <h4 className="subtitle font-light" data-aos="fade-up">
                             Lorem ipsum doller sit amet dummy text
                         </h4>
-                        <a href="tel:+123456789" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
+                        <a href="tel:07376942333" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                     </Col>
                 </Row>
             </Container>

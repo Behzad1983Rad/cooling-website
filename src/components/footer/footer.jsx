@@ -14,7 +14,7 @@ const Footer = () => {
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Email</h5>
-                        <p>Office :  <a href="mailto:coldacb@yahoo.com" className="link">coldacb@yahoo.com</a></p>
+                        <p>Office :  <a href="mailto:acbcooling@yahoo.com" className="link">acbcooling@yahoo.com</a></p>
                     </Col>
                     {/* <Col lg="4" md="6">
                         <h5 className="m-b-20">Social</h5>
