@@ -38,7 +38,7 @@ const ContactComponent = () => {
               <Card className="card-shadow">
                 <CardBody className="detail-box p-40 bg-info">
                   <div className="detail-box p-40 bg-info" data-aos="fade-left">
-                    <h2 className="text-white">Cold acb</h2>
+                    <h2 className="text-white">Acbcooling</h2>
                     <p className="text-white m-t-30">
                     07376942333
                       <br /> <a href="mailto: coldacb@yahoo.com" className="text-white">coldacb@yahoo.com</a>

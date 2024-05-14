@@ -35,7 +35,7 @@ const Footer = () => {
                     <Row>
                         <Col md="12">
                             <div className="d-flex font-14 justify-content-between">
-                                <div className="m-t-10 m-b-10 copyright">All Rights Reserved by Cold acb.</div>
+                                <div className="m-t-10 m-b-10 copyright">All Rights Reserved by Acbcooling.</div>
                                 <div className="links ms-auto m-t-10 m-b-10">
                                     <Link className="p-10 p-l-0">Terms of Use</Link>
                                     <Link className="p-10">Legal Disclaimer</Link>
