@@ -19,14 +19,14 @@ const Footer = () => {
                     {/* <Col lg="4" md="6">
                         <h5 className="m-b-20">Social</h5>
                         <div className="round-social light">
-                            <Link href="https://www.youtube.com/" className="link"><i className="fa fa-youtube-play"></i></Link>
+                            <Link href="https://youtube.com/@acbcooling-pc1mh?si=aIWm1cdbr3hxtPCx" className="link"><i className="fa fa-youtube-play"></i></Link>
                             <Link href="https://www.instagram.com/acbcooling" className="link" target="_blank"><i className="fa fa-instagram"></i></Link>
                         </div>
                     </Col> */}
                     <Col lg="4" md="6">
                         <h5 className="m-b-20">Social</h5>
                         <div className="round-social light">
-                            <a href="https://www.youtube.com/@Acbcooling" className="link" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
+                            <a href="https://youtube.com/@acbcooling-pc1mh?si=aIWm1cdbr3hxtPCx" className="link" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
                             <a href="https://www.instagram.com/acbcooling/" className="link" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                         </div>
                     </Col>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </Container>
             {/* WhatsApp Icon */}
-            <a href="https://wa.me/447376942333" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/447737690300" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-whatsapp"></i>
             </a>
         </div>
