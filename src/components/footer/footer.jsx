@@ -26,7 +26,7 @@ const Footer = () => {
                     <Col lg="4" md="6">
                         <h5 className="m-b-20">Social</h5>
                         <div className="round-social light">
-                            <a href="https://www.youtube.com/" className="link" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
+                            <a href="https://www.youtube.com/@Acbcooling" className="link" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
                             <a href="https://www.instagram.com/acbcooling/" className="link" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                         </div>
                     </Col>
