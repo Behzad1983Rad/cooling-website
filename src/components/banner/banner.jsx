@@ -13,7 +13,7 @@ const HeaderBanner = () => {
                             </h4>
                             <br />
                         <h5 className="subtitle font-light" data-aos="fade-up">
-                        Acbcooling is a HVAC contractor and procurement company specialist for Air conditioning and Refrigeration. Coldskill designs, installs, and maintains advanced cooling systems to help people do better work and live better lives. 
+                        Acbcooling is a HVAC contractor and procurement company specialist for Air conditioning and Refrigeration. Cold designs, installs, and maintains advanced cooling systems to help people do better work and live better lives. 
                         </h5>
                         <a href="tel:07376942333" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                     </Col>
