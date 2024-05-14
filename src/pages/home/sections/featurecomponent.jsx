@@ -102,7 +102,7 @@ const FeatureComponent = () => {
                                     <div className="icon-round bg-light-info"><i className="fa fa-usd"></i></div>
                                     <h5 className="font-bold">Payments </h5>
                                     <p className="m-t-20">Invoice is issued at the end of the job and is strictly payable immediately.</p>
-                                    <p className="m-t-20">Online payment: paypal.me/b2bcooling</p>
+                                    {/* <p className="m-t-20">Online payment: paypal.me/b2bcooling</p> */}
                                     <p className="m-t-20">Cash, Credit card or bank transfer</p>
                                     <div className='position-bottom'>
                                         <a href="#" className="btn btn-md m-t-30 btn-info-gradiant font-14 font-bold">Explore More<i className="ti-arrow-right"></i></a>
