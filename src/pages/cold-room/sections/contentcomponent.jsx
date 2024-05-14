@@ -128,7 +128,7 @@ const CntentComponent = () => {
                             <h2 className="title font-bold">How does it work?</h2>
                             <CardBody>
                                 <ol className='content-listing'>
-                                    <li>Call us on 07376942333</li>
+                                    <li>Call us on 07737690300</li>
                                     <li>We visit your location.</li>
                                     <li>For repairs there is a £120.00+VAT call out charge (£150.00+VAT central London), </li>
                                     <li>For installation, you’ll get a rough estimate on the same day and an accurate quotation within 24 hours.</li>

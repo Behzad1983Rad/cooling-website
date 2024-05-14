@@ -10,7 +10,7 @@ const Footer = () => {
                 <Row>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Phone</h5>
-                        <p>Engineer :   07376942333 <br />Office :  +207 235 7890</p>
+                        <p>Engineer :   7737690300 <br />Office :   07376942333</p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Email</h5>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </Container>
             {/* WhatsApp Icon */}
-            <a href="https://wa.me/447376942333" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/447737690300" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-whatsapp"></i>
             </a>
         </div>
