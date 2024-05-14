@@ -40,11 +40,11 @@ const ContactComponent = () => {
                   <div className="detail-box p-40 bg-info" data-aos="fade-left">
                     <h2 className="text-white">Acbcooling</h2>
                     <p className="text-white m-t-30">
-                    07376942333
+                    07737690300
                       <br /> <a href="mailto: acbcooling@yahoo.com" className="text-white">acbcooling@yahoo.com</a>
                     </p>
                     <p className="text-white">
-                      Office : +207 235 7890
+                      Office : 07376942333
                     </p>
                   </div>
                 </CardBody>
