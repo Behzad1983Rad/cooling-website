@@ -7,7 +7,11 @@ const HeaderBanner = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col lg="10" md="10" className="align-self-center text-center">
-                        <h1 className="title" data-aos="fade-down">Acbcooling</h1>
+                        <h2 className="title" data-aos="fade-down">Acbcooling</h2>
+                         <h3 className='logo-title text-white'  data-aos="fade-down">
+                            Refrigeration & Air Condition <br /> Service, Repair & Installation
+                            </h3>
+                            <br />
                         <h4 className="subtitle font-light" data-aos="fade-up">
                         Acbcooling is a HVAC contractor and procurement company specialist for Air conditioning and Refrigeration. Coldskill designs, installs, and maintains advanced cooling systems to help people do better work and live better lives. 
                         </h4>

@@ -47,9 +47,9 @@ const Header = () => {
                             <NavbarBrand href="/" data-aos="fade-right">
                                 <img className='logo-w' src={logo} alt="" />
                             </NavbarBrand>
-                            <span className='logo-title text-white'  data-aos="fade-down">
+                            {/* <span className='logo-title text-white'  data-aos="fade-down">
                             Refrigeration & Air Condition <br /> Service, Repair & Installation
-                            </span>
+                            </span> */}
                             <NavbarToggler onClick={toggle}><span className="ti-menu"></span></NavbarToggler>
                             <Collapse isOpen={isOpen} navbar className="hover-dropdown font-14 justify-content-end" id="h6-info">
                                 <Nav navbar className="ms-auto" data-aos="fade-up">
