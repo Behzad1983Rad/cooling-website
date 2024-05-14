@@ -34,7 +34,7 @@ const FeatureComponent = () => {
                                 <CardBody>
                                     <div className="icon-round bg-light-info"><i className="fa fa-briefcase"></i></div>
                                     <h5 className="font-bold">How does it work? </h5>
-                                    <p className="m-t-20">Call us on 07745 60 40 90</p>
+                                    <p className="m-t-20">Call us on 07376942333</p>
                                     <p className="m-t-20">Email us on info@someone.com</p>
                                     <p className="m-t-20">We visit your location.</p>
                                     <div className='position-bottom'>

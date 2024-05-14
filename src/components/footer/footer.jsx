@@ -10,17 +10,24 @@ const Footer = () => {
                 <Row>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Phone</h5>
-                        <p>Reception :  +205 123 4567 <br />Office :  +207 235 7890</p>
+                        <p>Engineer :   07376942333 <br />Office :  +207 235 7890</p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Email</h5>
-                        <p>Office :  <a href="mailto:info@yourwebsite.com" className="link">info@someone.com</a></p>
+                        <p>Office :  <a href="mailto:coldacb@yahoo.com" className="link">coldacb@yahoo.com</a></p>
                     </Col>
+                    {/* <Col lg="4" md="6">
+                        <h5 className="m-b-20">Social</h5>
+                        <div className="round-social light">
+                            <Link href="https://www.youtube.com/" className="link"><i className="fa fa-youtube-play"></i></Link>
+                            <Link href="https://www.instagram.com/acbcooling" className="link" target="_blank"><i className="fa fa-instagram"></i></Link>
+                        </div>
+                    </Col> */}
                     <Col lg="4" md="6">
                         <h5 className="m-b-20">Social</h5>
                         <div className="round-social light">
-                            <Link className="link"><i className="fa fa-youtube-play"></i></Link>
-                            <Link className="link"><i className="fa fa-instagram"></i></Link>
+                            <a href="https://www.youtube.com/" className="link" target="_blank" rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/acbcooling/" className="link" target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                         </div>
                     </Col>
                 </Row>
@@ -28,7 +35,7 @@ const Footer = () => {
                     <Row>
                         <Col md="12">
                             <div className="d-flex font-14 justify-content-between">
-                                <div className="m-t-10 m-b-10 copyright">All Rights Reserved by b2bcolling.</div>
+                                <div className="m-t-10 m-b-10 copyright">All Rights Reserved by Cold acb.</div>
                                 <div className="links ms-auto m-t-10 m-b-10">
                                     <Link className="p-10 p-l-0">Terms of Use</Link>
                                     <Link className="p-10">Legal Disclaimer</Link>
@@ -40,7 +47,7 @@ const Footer = () => {
                 </div>
             </Container>
             {/* WhatsApp Icon */}
-            <a href="https://wa.me/447939532054" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/447376942333" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-whatsapp"></i>
             </a>
         </div>

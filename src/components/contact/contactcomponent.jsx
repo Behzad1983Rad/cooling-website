@@ -38,10 +38,10 @@ const ContactComponent = () => {
               <Card className="card-shadow">
                 <CardBody className="detail-box p-40 bg-info">
                   <div className="detail-box p-40 bg-info" data-aos="fade-left">
-                    <h2 className="text-white">Acbcooling Headquarters</h2>
+                    <h2 className="text-white">Cold acb</h2>
                     <p className="text-white m-t-30">
-                      251 546 9442
-                      <br /> <a href="mailto:info@yourwebsite.com" className="text-white">info@someone.com</a>
+                    07376942333
+                      <br /> <a href="mailto: coldacb@yahoo.com" className="text-white">coldacb@yahoo.com</a>
                     </p>
                     <p className="text-white">
                       Office : +207 235 7890

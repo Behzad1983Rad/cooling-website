@@ -23,16 +23,16 @@ const Header = () => {
                             <div className="col-lg-8 col-md-12" data-aos="fade-right">
                                 <div className="toolbar-contact">
                                     <ul>
-                                        <li><i className="fa fa-envelope-o"></i><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
-                                        <li><i className="fa fa-phone"></i><a href="tel:+123456789">(+123) 456789</a></li>
+                                        <li><i className="fa fa-envelope-o"></i><a href="mailto:coldacb@yahoo.com">coldacb@yahoo.com</a></li>
+                                        <li><i className="fa fa-phone"></i><a href="tel:07376942333">07376942333</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-12" data-aos="fade-left">
                                 <div className="toolbar-sl-share">
                                     <ul>
-                                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-youtube"></i></a></li>
+                                        <li><a href="https://www.instagram.com/acbcooling/" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com" target="_blank"><i className="fa fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -73,16 +73,16 @@ const Header = () => {
                                             Gallery
                                         </Link>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <Link className="nav-link" to={""}>
                                             Youtube
                                         </Link>
                                     </NavItem>
                                     <NavItem>
-                                        <Link className="nav-link" to={""}>
+                                        <Link className="nav-link" to={"https://www.instagram.com/acbcooling/"}>
                                             Instagram
                                         </Link>
-                                    </NavItem>
+                                    </NavItem> */}
                                 </Nav>
                             </Collapse>
                         </Navbar>
