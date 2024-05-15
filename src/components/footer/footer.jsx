@@ -10,7 +10,7 @@ const Footer = () => {
                 <Row>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Phone</h5>
-                        <p>Engineer :   7737690300 <br />Office :   07376942333</p>
+                        <p>Engineer :   07737690300 <br />Office :   07376942333</p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Email</h5>
