@@ -10,7 +10,7 @@ const Footer = () => {
                 <Row>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Working Hours: </h5>
-                        <p>Monday to Friday <br />09 am - 05 pm</p>
+                        <p>Monday to Saturday <br />09 am - 05 pm </p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Phone</h5>
