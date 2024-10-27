@@ -20,12 +20,30 @@ const PortfolioComponent = () => {
                         </Col>
                     </Row>
                     <Row className="m-t-40">
+                    <Col md="4">
+                            <Card className="card-shadow" data-aos="fade-left">
+                                <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img3} alt="wrappixel kit" /></Link>
+                                <CardBody>
+                                    <Link to="/gallery"><h5 className="font-medium m-b-0">Cold Room</h5></Link>
+                                    <p className="m-b-0 font-14">Our cold room installation and maintenance services ensure optimal storage conditions, keeping your products fresh and secure.</p>
+                                </CardBody>
+                            </Card>
+                        </Col>
                         <Col md="4">
                             <Card className="card-shadow" data-aos="fade-right">
                                 <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img1} alt="wrappixel kit" /></Link>
                                 <CardBody>
                                     <Link to="/gallery"><h5 className="font-medium m-b-0">Refrigeration</h5></Link>
                                     <p className="m-b-0 font-14">Acbcooling provides expert refrigeration installation, repair, and maintenance in London, ensuring your systems run efficiently and reliably.</p>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                        <Col md="4">
+                            <Card className="card-shadow" data-aos="fade-left">
+                                <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img3} alt="wrappixel kit" /></Link>
+                                <CardBody>
+                                    <Link to="/gallery"><h5 className="font-medium m-b-0">Thermo King</h5></Link>
+                                    <p className="m-b-0 font-14">Our cold room installation and maintenance services ensure optimal storage conditions, keeping your products fresh and secure.</p>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -38,15 +56,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4">
-                            <Card className="card-shadow" data-aos="fade-left">
-                                <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img3} alt="wrappixel kit" /></Link>
-                                <CardBody>
-                                    <Link to="/gallery"><h5 className="font-medium m-b-0">Cold Room</h5></Link>
-                                    <p className="m-b-0 font-14">Our cold room installation and maintenance services ensure optimal storage conditions, keeping your products fresh and secure.</p>
-                                </CardBody>
-                            </Card>
-                        </Col>
+                      
                     </Row>
                 </Container>
             </div>
