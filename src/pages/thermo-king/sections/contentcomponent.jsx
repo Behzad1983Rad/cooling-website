@@ -19,19 +19,18 @@ const CntentComponent = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center"  data-aos="fade-up">
-                            <h2 className="title font-bold">Installation & Service</h2>
+                            <h2 className="title font-bold">Thermo King Installation & Service</h2>
                         </Col>
                     </Row>
                     <Row className="m-t-40">
                         <Col md="7" data-aos="fade-right">
                             <Card>
                                 <CardBody className='m-t-30'>
-                                    <p className="m-b-10 font-18">Termo King installation</p>
-                                    <p className="m-b-10 font-18">VRV certified installer</p>
-                                    <p className="m-b-10 font-18"> Termo King general and deep chemical service</p>
-                                    <p className="m-b-10 font-18">Upgrade existing Termo King</p>
-                                    <p className="m-b-10 font-18">We install & service Termo King units, small and large, for all types of commercial and domestic premises.
-                                        Our suppliers are well known industry standards such as Daikin, Mitsubishi, LG, Fujitsu, Panasonic, etc.</p>
+                                    <p className="m-b-10 font-18">Thermo King Unit Installation</p>
+                                    <p className="m-b-10 font-18">Certified Thermo King Installer</p>
+                                    <p className="m-b-10 font-18"> Thermo King General and Deep Chemical Service</p>
+                                    <p className="m-b-10 font-18">Upgrade Existing Thermo King Units</p>
+                                    <p className="m-b-10 font-18">We install and service Thermo King refrigeration units for all types of commercial and transportation applications. Our expertise covers both small and large units, ensuring optimal performance for your fleet. We work with well-known industry standards to provide reliable solutions for your refrigeration needs.</p>
                                 </CardBody>
                             </Card>
                         </Col>
