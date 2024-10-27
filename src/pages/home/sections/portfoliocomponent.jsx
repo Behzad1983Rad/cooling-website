@@ -7,6 +7,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import img1 from '../../../assets/images/portfolio/refrigeration.jpg';
 import img2 from '../../../assets/images/portfolio/air-conditions.jpg';
 import img3 from '../../../assets/images/portfolio/cold-room.jpg';
+import img4 from '../../../assets/images/thermo-king/thermo1.png'
 
 const PortfolioComponent = () => {
     return (
@@ -29,21 +30,22 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
+                        
+                        <Col md="4">
+                            <Card className="card-shadow" data-aos="fade-left">
+                                <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img4} alt="wrappixel kit" /></Link>
+                                <CardBody>
+                                    <Link to="/gallery"><h5 className="font-medium m-b-0">Thermo King</h5></Link>
+                                    <p className="m-b-0 font-14">Our cold room installation and maintenance services ensure optimal storage conditions, keeping your products fresh and secure.</p>
+                                </CardBody>
+                            </Card>
+                        </Col>
                         <Col md="4">
                             <Card className="card-shadow" data-aos="fade-right">
                                 <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img1} alt="wrappixel kit" /></Link>
                                 <CardBody>
                                     <Link to="/gallery"><h5 className="font-medium m-b-0">Refrigeration</h5></Link>
                                     <p className="m-b-0 font-14">Acbcooling provides expert refrigeration installation, repair, and maintenance in London, ensuring your systems run efficiently and reliably.</p>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col md="4">
-                            <Card className="card-shadow" data-aos="fade-left">
-                                <Link to="/gallery" className="img-ho"><img className="card-img-top" src={img3} alt="wrappixel kit" /></Link>
-                                <CardBody>
-                                    <Link to="/gallery"><h5 className="font-medium m-b-0">Thermo King</h5></Link>
-                                    <p className="m-b-0 font-14">Our cold room installation and maintenance services ensure optimal storage conditions, keeping your products fresh and secure.</p>
                                 </CardBody>
                             </Card>
                         </Col>
