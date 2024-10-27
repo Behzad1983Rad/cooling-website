@@ -9,7 +9,7 @@ const Banner = () => {
                     <Col lg="10" md="10" className="align-self-center text-center">
                         <h1 className="title" data-aos="fade-down">Termo King</h1>
                         <h4 className="subtitle font-light" data-aos="fade-up">
-                        Experience year-round comfort with our HVAC website's Termo King solutions. From energy-efficient units to innovative climate control systems, we ensure your indoor environment stays cool and comfortable.
+                            We offer expert Thermo King installation, repair and maintenance for reliable refrigeration units and climate control systems. Our energy-efficient refrigeration options ensure your cargo stays at optimal temperatures, enhancing your cold chain logistics. Trust our skilled Thermo King technicians for routine inspections and emergency repairs, minimizing downtime and protecting your valuable goods.
                         </h4>
                         <a href="tel:07376942333" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                     </Col>
