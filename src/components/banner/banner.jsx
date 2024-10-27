@@ -9,7 +9,7 @@ const HeaderBanner = () => {
                     <Col lg="10" md="10" className="align-self-center text-center">
                         <h3 className="title" data-aos="fade-down">Acbcooling</h3>
                          <h4 className='logo-title text-white'  data-aos="fade-down">
-                            Refrigeration & Air Condition <br /> Service, Repair & Installation
+                            Refrigeration & Air Condition <br /> Termo King, Service, Repair & Installation
                             </h4>
                             <br />
                         <h5 className="subtitle font-light" data-aos="fade-up">
