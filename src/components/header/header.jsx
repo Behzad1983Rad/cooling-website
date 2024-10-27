@@ -69,6 +69,11 @@ const Header = () => {
                                         </Link>
                                     </NavItem>
                                     <NavItem>
+                                        <Link className="nav-link" to={"/air-condition"}>
+                                            Termo King                                        
+                                        </Link>
+                                    </NavItem>
+                                    <NavItem>
                                         <Link className="nav-link" to={"/gallery"}>
                                             Gallery
                                         </Link>
