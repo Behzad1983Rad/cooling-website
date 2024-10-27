@@ -7,6 +7,7 @@ import AirCondition from "./pages/air-condition/air-condition.jsx";
 import Refrigration from "./pages/refrigeration/refrigration.jsx";
 import ColdRoom from "./pages/cold-room/cold-room.jsx";
 import Gallery from "./pages/gallery/gallery.jsx";
+import ThermoKing from "./pages/thermo-king/thermo-king.jsx"; // Update path as necessary
 import 'aos/dist/aos.css'; // Import AOS CSS
 import AOS from 'aos';
 import './assets/scss/style.scss'; // Import your project's main SCSS file
@@ -34,6 +35,7 @@ function App() {
         <Route path="/refrigration" element={<Refrigration />} />
         <Route path="/cold-room" element={<ColdRoom />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/thermo-king" element={<ThermoKing />} />
       </Routes>
     </HashRouter>
   );

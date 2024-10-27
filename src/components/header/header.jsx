@@ -69,8 +69,8 @@ const Header = () => {
                                         </Link>
                                     </NavItem>
                                     <NavItem>
-                                        <Link className="nav-link" to={"/termo-king"}>
-                                            Termo King                                        
+                                        <Link className="nav-link" to={"/thermo-king"}>
+                                        Thermo King                                        
                                         </Link>
                                     </NavItem>
                                     <NavItem>
