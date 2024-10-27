@@ -3,7 +3,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 
-import img1 from '../../../assets/images/ac-images/air-condition-installation.jpg';
+import img1 from "../../../assets/images/thermo-king/thermo1.png"
 import img5 from '../../../assets/images/ac-images/gurante1.jpg';
 
 import Brand1 from '../../../assets/images/ac-images/brand-1.jpg';
