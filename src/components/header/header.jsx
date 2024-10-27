@@ -69,7 +69,7 @@ const Header = () => {
                                         </Link>
                                     </NavItem>
                                     <NavItem>
-                                        <Link className="nav-link" to={"/air-condition"}>
+                                        <Link className="nav-link" to={"/termo-king"}>
                                             Termo King                                        
                                         </Link>
                                     </NavItem>
