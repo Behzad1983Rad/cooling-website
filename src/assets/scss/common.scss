@@ -237,13 +237,22 @@ Topbar
     margin:0px 0 28px 0;
 }
 
+// a.whatsapp-icon {
+//     position: fixed;
+//     color: #2cb741;
+//     font-size: 75px;
+//     right: 25px;
+//     bottom: 15px;
+// }
 a.whatsapp-icon {
     position: fixed;
     color: #2cb741;
     font-size: 75px;
-    right: 25px;
+    left: 25px;
     bottom: 15px;
+    z-index: 1000;
 }
+
 
 .gallery-item figure {
     max-height: 305px;

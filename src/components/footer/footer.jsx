@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { HashLink as Link } from 'react-router-hash-link';
+import Twak from '../Twak/Twak';// adjust the path if needed
+
 
 
 const Footer = () => {
@@ -54,6 +56,7 @@ const Footer = () => {
             <a href="https://wa.me/447737690300" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-whatsapp"></i>
             </a>
+            <Twak />
         </div>
     );
 }
