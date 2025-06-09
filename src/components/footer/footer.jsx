@@ -12,11 +12,11 @@ const Footer = () => {
                 <Row>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Working Hours: </h5>
-                        <p>Monday to Saturday <br />09 am - 05 pm </p>
+                        <p>Monday to Saturday <br />09 am - 10 pm </p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Phone</h5>
-                        <p>Engineer :   07737690300 <br />Office :   07376942333</p>
+                        <p>Engineer :   07737690300 <br />Office :   07737690300</p>
                     </Col>
                     <Col lg="4" md="6" className="m-b-30">
                         <h5 className="m-b-20">Email</h5>

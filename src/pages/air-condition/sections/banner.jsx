@@ -11,7 +11,7 @@ const Banner = () => {
                         <h4 className="subtitle font-light" data-aos="fade-up">
                         Experience year-round comfort with our HVAC website's air conditioning solutions. From energy-efficient units to innovative climate control systems, we ensure your indoor environment stays cool and comfortable.
                         </h4>
-                        <a href="tel:07376942333" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
+                        <a href="tel:07737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                     </Col>
                 </Row>
             </Container>

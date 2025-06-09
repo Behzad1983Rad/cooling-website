@@ -11,7 +11,7 @@ const Banner = () => {
                         <h4 className="subtitle font-light" data-aos="fade-up">
                         Explore reliable refrigeration solutions on our HVAC website, designed to preserve freshness and optimize storage. From commercial-grade units to specialized systems, we offer efficient cooling solutions tailored to your needs
                         </h4>
-                        <a href="tel:07376942333" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
+                        <a href="tel:07737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                     </Col>
                 </Row>
             </Container>
