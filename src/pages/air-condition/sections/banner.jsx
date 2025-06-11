@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import logo from '../../../assets/images/logos/logo.png'
 const Banner = () => {
     return (
         <div className="static-slider-head static-slider-head-2">
