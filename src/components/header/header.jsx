@@ -44,9 +44,9 @@ const Header = () => {
                 <div className="header6">
                     <Container className="po-relative">
                         <Navbar className="navbar-expand-lg h6-nav-bar">
-                            <NavbarBrand href="/" data-aos="fade-right">
+                            {/* <NavbarBrand href="/" data-aos="fade-right">
                                 <img style={{scale: "1.1"}} className='logo-w' src={logo} alt="" />
-                            </NavbarBrand>
+                            </NavbarBrand> */}
                             {/* <span className='logo-title text-white'  data-aos="fade-down">
                             Refrigeration & Air Condition <br /> Service, Repair & Installation
                             </span> */}

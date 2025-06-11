@@ -53,9 +53,9 @@ const Footer = () => {
                 </div>
             </Container>
             {/* WhatsApp Icon */}
-            <a href="https://wa.me/447737690300" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://wa.me/447737690300" className="whatsapp-icon" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-whatsapp"></i>
-            </a>
+            </a> */}
             <Twak />
         </div>
     );
