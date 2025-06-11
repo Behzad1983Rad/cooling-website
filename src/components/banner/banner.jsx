@@ -24,10 +24,30 @@ const HeaderBanner = () => {
                         <h5 className="subtitle font-light" data-aos="fade-up">
                         Acbcooling is a leading HVAC contractor in London, specializing in advanced installation, repair, and maintenance of air conditioning and refrigeration systems. Our expert team ensures efficient and tailored cooling solutions for your needs.
                         </h5>
-                        <a href="tel:07737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a>
                         {/* <a href="tel:07737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a> */}
-                        <a href="https://wa.me/447737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" target="_blank" rel="noopener noreferrer">
-                 &nbsp; WhatsApp</a>
+                        {/* <a href="tel:07737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" data-aos="fade-up"><i className="fa fa-phone"></i> &nbsp; Call Us</a> */}
+                        {/* <a href="https://wa.me/447737690300" className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20" target="_blank" rel="noopener noreferrer"> */}
+                 {/* &nbsp; WhatsApp</a> */}
+                        <a
+                        href="tel:07737690300"
+                        className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20"
+                        style={{ minWidth: '160px', textAlign: 'center' }}
+                        data-aos="fade-up"
+                        >
+                        Call Us
+                        </a>
+
+                        <a
+                        href="https://wa.me/447737690300"
+                        className="btn btn-info-gradiant m-r-20 btn-md m-t-30 font-20"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-aos="fade-up"
+                        style={{ minWidth: '160px', textAlign: 'center' }}
+                        >
+                        WhatsApp
+                        </a>
+
                 {/* < i className="fa fa-whatsapp"></i> */}
                     </Col>
                 </Row>
