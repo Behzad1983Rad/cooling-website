@@ -161,7 +161,7 @@ const HeaderBanner = () => {
                         {/* Title */}
                         <h4 className="logo-title text-white" data-aos="fade-down">
                             Refrigeration & Air Condition <br />
-                            Termo King, Service, Repair & Installation
+                            Thermo King, Service, Repair & Installation
                         </h4>
 
                         <br />
