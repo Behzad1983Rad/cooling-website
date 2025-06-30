@@ -185,14 +185,14 @@ const HeaderBanner = () => {
                                 marginBottom: '40px', // ⬅️ more space from bottom
                             }}
                         >
-                            {/* <a
+                            <a
                                 href="tel:07737690300"
                                 className="btn btn-info-gradiant btn-md font-20"
                                 style={{ minWidth: '200px' }} // ⬅️ consistent width
                                 data-aos="fade-up"
                             >
                                 Call Us
-                            </a> */}
+                            </a>
 
                             <a
                                 href="https://wa.me/447737690300"
@@ -205,7 +205,7 @@ const HeaderBanner = () => {
                                 WhatsApp
                             </a>
                             <a  
-                                href="tel:07737690300"
+                                href="https://calendly.com/coolingacb/30min" 
                                 className="btn btn-info-gradiant btn-md font-20"
                                 target="_blank" 
                                 rel="noopener noreferrer"
