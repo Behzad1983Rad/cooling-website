@@ -204,6 +204,16 @@ const HeaderBanner = () => {
                             >
                                 WhatsApp
                             </a>
+                            <a  
+                                href="https://calendly.com/coolingacb/30min" 
+                                className="btn btn-info-gradiant btn-md font-20"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-aos="fade-up"
+                                style={{ minWidth: '200px', padding: '15px 12px', marginTop: '8px' }}
+                                >
+                                Book Support
+                            </a>
                         </div>
                     </Col>
                 </Row>
